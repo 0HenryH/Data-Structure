@@ -1,0 +1,26 @@
+﻿生成启动时间为 2018/5/23 20:52:28。
+     1>项目“D:\Graph\Graph\Graph.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\graph\graph\linkqueue.h(7): warning C4005: “OVERFLOW”: 宏重定义
+                 d:\program files (x86)\vs2013\vc\include\math.h(982) : 参见“OVERFLOW”的前一个定义
+     1>d:\graph\graph\graph.h(5): warning C4005: “OVERFLOW”: 宏重定义
+                 d:\graph\graph\linkqueue.h(7) : 参见“OVERFLOW”的前一个定义
+     1>d:\graph\graph\graph.h(10): warning C4005: “INFINITY”: 宏重定义
+                 d:\program files (x86)\vs2013\vc\include\math.h(102) : 参见“INFINITY”的前一个定义
+     1>d:\graph\graph\graph_l_dg.h(54): warning C4101: “count”: 未引用的局部变量
+                 d:\graph\graph\graph_l_dg.h(53): 编译类 模板 成员函数“void Graph_L_DG<char>::count_in_degree(int [])”时
+                 d:\graph\graph\graph_l_dg.h(68): 参见对正在编译的函数 模板 实例化“void Graph_L_DG<char>::count_in_degree(int [])”的引用
+                 d:\graph\graph\graph_l_dg.h(19): 编译类 模板 成员函数“Graph_L_DG<char>::Graph_L_DG(int,int)”时
+                 d:\graph\graph\main.cpp(24): 参见对正在编译的函数 模板 实例化“Graph_L_DG<char>::Graph_L_DG(int,int)”的引用
+                 d:\graph\graph\main.cpp(24): 参见对正在编译的类 模板 实例化“Graph_L_DG<char>”的引用
+     1>d:\graph\graph\graph_lnk.h(63): warning C4715: “Graph_lnk<char>::Location”: 不是所有的控件路径都返回值
+       Link:
+         D:\Program Files (x86)\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Graph\Debug\Graph.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Graph\Debug\Graph.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Graph\Debug\Graph.lib" /MACHINE:X86 Debug\main.obj
+         Graph.vcxproj -> D:\Graph\Debug\Graph.exe
+     1>已完成生成项目“D:\Graph\Graph\Graph.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.61
